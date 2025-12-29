@@ -6,7 +6,7 @@ class CustomNavbar extends HTMLElement {
                 <div class="container mx-auto px-4 py-4">
                     <div class="flex items-center justify-between">
                         <div class="flex items-center space-x-4">
-                            <h1 class="text-2xl font-racing text-red-600">🏁 Pomodoro Grand Prix</h1>
+                            <h1 class="text-2xl font-racing text-red-600">🏁 Pomidoro Grand Prix</h1>
                         </div>
                         <div class="flex items-center space-x-6">
                             <a href="#" class="text-gray-300 hover:text-white transition-colors">Главная</a>
@@ -20,6 +20,7 @@ class CustomNavbar extends HTMLElement {
 }
 
 customElements.define('custom-navbar', CustomNavbar);
+
 
 
 
