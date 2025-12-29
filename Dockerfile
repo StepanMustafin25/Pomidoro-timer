@@ -11,13 +11,14 @@ COPY script.js /usr/share/nginx/html/
 COPY components/ /usr/share/nginx/html/components/
 
 # Копируем кастомную конфигурацию nginx 
-COPY nginx.conf /etc/nginx/conf.d/default.conf
+#COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 # Открываем порт 80
 EXPOSE 80
 
 # Nginx запускается автоматически при старте контейнера
 CMD ["nginx", "-g", "daemon off;"]
+
 
 
 
